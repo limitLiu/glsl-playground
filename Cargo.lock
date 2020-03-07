@@ -224,6 +224,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "glsl-playground"
+version = "0.1.0"
+dependencies = [
+ "cgmath",
+ "gl",
+ "glfw",
+ "image",
+]
+
+[[package]]
 name = "hermit-abi"
 version = "0.1.7"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -594,16 +604,6 @@ dependencies = [
  "byteorder",
  "lzw",
  "miniz_oxide",
-]
-
-[[package]]
-name = "trill"
-version = "0.1.0"
-dependencies = [
- "cgmath",
- "gl",
- "glfw",
- "image",
 ]
 
 [[package]]
